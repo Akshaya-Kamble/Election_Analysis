@@ -8,7 +8,8 @@ We have initially calculated the total number of votes cast, the total number of
 ## Election-Audit Results 
 
 We have calculate the below election results by importing the data from the election_results csv file,making connections to the os by refering a path of the saved file,initilizing variables,lists and dictionaries as required for the calculations, using loops for iterating through the rows of data and collecting data with conditional statements,display data to the command line and store results in a txt file.
-Attached image ![Final_Result](https://github.com/Akshaya-Kamble/Election_Analysis/Final_result_capture.PNG) for final result display.
+Attached image for final result display.
+![Final_Result](Final_result_capture.PNG) 
 
 ### Breakdown of election audit with results.
 
