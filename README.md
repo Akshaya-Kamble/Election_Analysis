@@ -24,16 +24,16 @@ Attached image for final result display.
 		- Arapahoe: 6.7% (24,801)
 	   Using the below code inside for loop, we were able to populate the above results.
 
-	   for county_name in county_votes :
+	  ``` for county_name in county_votes :
 	   	votes2 = county_votes.get(county_name)
 		vote2_percentage = float(votes2) / float(total_votes) * 100
 		county_results = (f"{county_name}: {vote2_percentage:.1f}% ({votes2:,})\n")
-        	print (county_results)
+        	print (county_results)```
 
 	3. Looking at the statstics in the output on the command line we can see that Denver county had the largest number of votes (306,055) that is 82.8%.
 	   We were able to get the resuls by using conditional statement if inside the for loop.By initializing three variables and using if condition 	   	   	   to assign the winners to the variables and printing out the winners assigned to respective variables.Below is the code.
 
-	   	if (votes2 > winning_county_votes) and (vote2_percentage > winning_county_percentage):
+	   	```if (votes2 > winning_county_votes) and (vote2_percentage > winning_county_percentage):
            		winning_county_votes = votes2
            		winning_county = county_name
            		winning_county_percentage = vote2_percentage
@@ -42,7 +42,7 @@ Attached image for final result display.
            f"----------------------------------------\n" 
            f"The largest county Turnout is : {winning_county}\n"
            f"----------------------------------------\n" )
-           print(winning_county_summary)
+           print(winning_county_summary) ```
 
 
 	4. We have calculated the total number of votes and the percentage of total votes for each candidate and below are the results.
@@ -51,16 +51,16 @@ Attached image for final result display.
 		- Raymon Anthony Doane: 3.1% (11,606)
 
 	   Using the below code inside for loop, we were able to populate the above results.
-	   for candidate_name in candidate_votes:
+	   ```for candidate_name in candidate_votes:
 		votes = candidate_votes.get(candidate_name)
         	vote_percentage = float(votes) / float(total_votes) * 100
         	candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-		print(candidate_results)
+		print(candidate_results)```
 
 	5. The winner of the election is Diana DeGette with a winning Vote Count of 272,892 that is 73.8%.
 	   Using similar logic for calculating winning county , we have calculated the election winner. Below is the code.
 
-	   	if (votes > winning_count) and (vote_percentage > winning_percentage):
+	   	``` if (votes > winning_count) and (vote_percentage > winning_percentage):
             		winning_count = votes
             		winning_candidate = candidate_name
             		winning_percentage = vote_percentage 
@@ -70,8 +70,8 @@ Attached image for final result display.
            f"Winner: {winning_candidate}\n"
            f"Winning Vote Count: {winning_count:,}\n"
            f"Winning Percentage: {winning_percentage:.1f}%\n"
-           f"----------------------------------------\n")
-           print(winning_candidate_summary)
+           f"----------------------------------------\n") 
+           print(winning_candidate_summary) ```
 
 ## Election-Audit Summary
 
