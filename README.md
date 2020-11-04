@@ -85,7 +85,7 @@ In our code we have used import csv and this can be different depending on the f
 2. Changing the path for operating system connections
 Depending on the location of the file the path will change and this can be done by changing the code and joining the appropriate files to the os.
 
-[1]:(https://github.com/Akshaya-Kamble/Election_Analysis/blob/main/Final_result_capture.PNG)
+[1]:https://github.com/Akshaya-Kamble/Election_Analysis/blob/main/Final_result_capture.PNG
 
 
 
